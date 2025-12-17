@@ -9,7 +9,7 @@ connectdb();
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:5173', 
+    origin: 'http://13.235.82.87:5173', 
     credentials: true
 }));
 app.use(express.json());
